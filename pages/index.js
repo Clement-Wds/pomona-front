@@ -1,14 +1,14 @@
 import fetch from 'isomorphic-unfetch'
 import Card from 'components/style_movies/Card'
 
-const Home = ({movies}) => {
-	console.log(movies)
+const Home = ({images}) => {
+	console.log(images)
 	
 	return(
 		<div className="container">
-			{movies.map(movie => (
+			{images.map(image => (
 				<div>
-				{movie.title}
+				{image.title}
 				</div>
 			))}
 		</div>
@@ -17,12 +17,12 @@ const Home = ({movies}) => {
 export async function getServerSideProps() {
 	const{API_URL}=process.env
 	
-	const res = await fetch('http://localhost:1337/movies')
+	const res = await fetch('https://pomona-passion-froid.herokuapp.com/images')
 	const data = await res.json()
 	
 	return {
 		props: {
-			movies:data
+			images:data
 		}
 	}
 }
