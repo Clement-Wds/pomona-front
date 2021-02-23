@@ -1,5 +1,4 @@
 import fetch from 'isomorphic-unfetch'
-import Card from 'components/style_movies/Card'
 
 const Home = ({images}) => {
 	console.log(images)
