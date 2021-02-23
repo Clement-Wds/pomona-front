@@ -15,9 +15,17 @@
                 <img class="logo" src="css/PassionFroid.png">
             </a>
         </div>
+        <script>
+            function myFunction() { 
+                document.getElementById("connect").style.display="none"; 
+                document.getElementById("page").style.display="block";
+                document.getElementById("nav").style.display="block";  
+            }
+        </script>
         <!--Connection-->
+        
         <form method="POST">
-            <div class = "container-fluid white" id="connect">
+            <div class = "container-fluid white" id="connect" >
                 <div class="row">
                     <div class="col-md-1"></div>
                         <div class="mb-3">  
@@ -29,12 +37,12 @@
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" name="password" id="exampleInputPassword1">
                         </div>
-                        <button type="submit" name="identifiant" class="btn btn-primary">Submit</button>
+                        <button name="identifiant" class="btn btn-primary" onclick="myFunction()">Submit</button>
                     </div>
                     <div class="col-md-1"></div>
             </div>
             <!--connection finit-->
-            <div class = "container-fluid">
+            <div class = "container-fluid" id = "page" style="display:none;">
                 <div class="row" id="grid">
                     <div class="col-md-1"></div>
                     <!--Button ambiance-->
@@ -61,7 +69,7 @@
                 </div>
             </div>
             <!--navbar-->
-            <div class="input-group" id="nav">
+            <div class="input-group" id="nav" style="display:none;">
                 <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
                   aria-describedby="search-addon" />
                 <button type="button" class="btn btn-outline-primary">search</button>
