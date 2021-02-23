@@ -15,18 +15,18 @@
                 <img class="logo" src="css/PassionFroid.png">
             </a>
         </div>
-        <script>
-            function myFunction() { 
-                document.getElementById("connect").style.display="none"; 
-                document.getElementById("page").style.display="block";
-                document.getElementById("nav").style.display="block";  
-            }
-        </script>
         <!--Connection-->
         
         <form method="POST">
             <div class = "container-fluid white" id="connect" >
                 <div class="row">
+                    <script>
+                        function myFunction() { 
+                            document.getElementById("connect").style.display="none"; 
+                            document.getElementById("page").style.display="block";
+                            document.getElementById("nav").style.display="block";  
+                        }
+                    </script>
                     <div class="col-md-1"></div>
                         <div class="mb-3">  
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -37,7 +37,7 @@
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" name="password" id="exampleInputPassword1">
                         </div>
-                        <button name="identifiant" class="btn btn-primary" onclick="myFunction()">Submit</button>
+                        <button type="button" name="identifiant" class="btn btn-primary" onclick="myFunction()">Submit</button>
                     </div>
                     <div class="col-md-1"></div>
             </div>
