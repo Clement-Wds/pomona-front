@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8" />
+<title>PassionFroid</title>
+<!-- Link css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel = "stylesheet" href = "css/css3.css">
+<!-- Link css finit la -->
+</head>
+<body>
+    <!--logo-->
+    <div class="logo">
+        <a href="./index.html">
+            <img class="logo" src="css/PassionFroid.png">
+        </a>
+    </div>
+    <!--menu-->
+    <form method="POST">
+        <div class="container">
+            <div class ="row">
+                <!--premiereligne-->
+                <div class = "selec"></div>
+                    
+                    <div class="col-md-3" id="con" name="essentiels">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Elément essentiels</option>
+                            <option value="famille">Famille</option>
+                            <option value="plateau_repas">Plateau repas</option>
+                            <option value="parage">Parage</option>
+                            <option value="animal">Animal</option>
+                            <option value="paysage">Paysage</option>
+                            <option value="assiette">Assiette</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con" name="environment">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Environment extérieur</option>
+                            <option value="plein_air">Plein air</option>
+                            <option value="cave">Cave</option>
+                            <option value="cuisine">Cuisine</option>
+                            <option value="champ">Champ</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con"name=""tendance>
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Tendance</option>
+                            <option value="fast_food">Fast food</option>
+                            <option value="finger_food">Finger food</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <!--Deuxiemeligne-->
+                    
+                    <div class="col-md-3" id="con" name="cibles">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Cibles clients</option>
+                            <option value="traiteur">Traiteur</option>
+                            <option value="restauration_rapide">Restauration rapide</option>
+                            <option value="entreprise">Entreprise</option>
+                            <option value="brasserie">Brasserie</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con" name="ambience">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Ambience</option>
+                            <option value="convivialité">Convivialité</option>
+                            <option value="terroir">Terroir</option>
+                            <option value="joie">Joie</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con" name="familles">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Familles de produits</option>
+                            <option value="entrée">Entrée</option>
+                            <option value="viande">Viande</option>
+                            <option value="volaille">Volaille</option>
+                            <option value="charcuterie">Charcuterie</option>
+                            <option value="cocktail">Cocktail</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <!--Troisiemeligne-->
+                    
+                    <div class="col-md-3" id="con" name="composant">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Composant du repas</option>
+                            <option value="entrée">Entrée</option>
+                            <option value="plat">Plat</option>
+                            <option value="fromage">Fromage</option>
+                            <option value="dessert">Dessert</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con" name="precision">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Précision sur le produit</option>
+                            <option value="pomme">Pomme</option>
+                            <option value="poire">Poire</option>
+                            <option value="fraine">Fraise</option>
+                            <option value="bannane">Bannane</option>
+                            <option value="beuf">Beuf</option>
+                            <option value="veaux">Veaux</option>
+                            <option value="porc">Porc</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con" name="prise de vue">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Prise de vue</option>
+                            <option value="vue_davion">Vue d'avion</option>
+                            <option value="portrait">Portrait</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <!--Quatriemeligne-->
+                    
+                    <div class="col-md-3" id="con" name="typologie">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Si une personne est visible, typologie</option>
+                            <option value="client">Client</option>
+                            <option value="convive">Convive</option>
+                            <option value="adult">Adulte</option>
+                            <option value="enfant">Enfant</option>
+                            <option value="conseiller_culinaire">Conseiller culinaire</option>
+                            <option value="chef">Chef</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con" name="action">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Si une personne est visible, l'action</option>
+                            <option value="montage">Montage</option>
+                            <option value="dressage">Dressage</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3" id="con" name="marque">
+                        <select class="btn btn-info btn-block form-select" aria-label="Default select example">
+                            <option selected>Marque MMD</option>
+                            <option value="1">L'Affineur du Chef</option>
+                            <option value="2">Le Boucher du Chef</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                </div>
+            </div> 
+            <!--upload-->    
+            <div class="upload">
+                <div class="col-md-6 btn-block" id="butto" name="sub2">
+                    <button type="submit" name="identifiant" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-md-6 btn-block" id="butto2" name="upl">
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label">Upload files</label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    </div>
+                </div>
+            </div>
+            <!--navbar-->
+            <div class="input-group" id="nav">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                  aria-describedby="search-addon" />
+                <button type="button" class="btn btn-outline-primary">search</button>
+              </div>
+        </div>
+    </form>
+</body>
+</html>
