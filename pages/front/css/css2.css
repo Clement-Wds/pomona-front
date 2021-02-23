@@ -1,0 +1,36 @@
+body{
+    background-image: url("photosambiance/Fotolia_59627880_Subscription_Monthly_MD.jpg");
+    background-size: cover;
+}
+.logo{
+    width: 35%;
+    margin: auto;
+    display: block;
+}
+#button {
+    width: 100%;
+   }
+#con{
+    margin-top: 5%;
+    margin-left: 6.5%;
+    width: 25%;
+}
+#butto{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 25%; 
+}
+#butto2{
+    margin-top: -4.5%;
+    margin-left: 60%;
+    width: 25%; 
+}
+.form-label{
+    background-color: white;
+}
+#nav{
+    position: absolute;
+    margin-top: -47.5%;
+    margin-left: 60%;
+    width: 30%;
+}
