@@ -46,13 +46,13 @@ export default function Home() {
                         
                         <div class="col-md-5" id="amb">
                             <p class ="text">Image d'ambiance</p>
-                            <a href="./photo.html">
+                            <a href="./photo.js">
                                 <img class="ambianceimage" src="css/photosambiance/AdobeStock_30838671.jpeg" id="imagebutton"/>
                             </a>
                         </div>
                         <div class="col-md-5" id="prod">
                             <p class ="text">Image de produit</p>
-                            <a href="./photo.html">
+                            <a href="./photo.js">
                                 <img class="produitimage" src="css/photosproduits/39847-RC.jpg" id="imagebutton"/>
                             </a>
                         </div>
