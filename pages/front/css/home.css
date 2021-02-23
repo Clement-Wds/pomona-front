@@ -1,5 +1,5 @@
 body{
-    background-image: url("photosambiance/Fotolia_59627880_Subscription_Monthly_MD.jpg");
+    background-image: url("photosambiance/salade bar sommaire.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -60,4 +60,14 @@ body{
     margin-top:3% ;
     margin-left: 60%;
     width: 30%;
+}
+.bar{
+    z-index: -1;
+    position: absolute;
+    width: 300vh;
+    height: 23%;
+    background-color: rgb(74, 156, 161);
+    border-bottom: 2px solid;
+    border-color: black;
+    opacity: 70%;
 }

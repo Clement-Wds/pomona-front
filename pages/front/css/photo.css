@@ -1,6 +1,8 @@
+/*Fotolia_59627880_Subscription_Monthly_MD.jpg*/
 body{
-    background-image: url("photosambiance/Fotolia_59627880_Subscription_Monthly_MD.jpg");
+    background-image: url("photosambiance/salade bar sommaire.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 .logo{
     width: 35%;
@@ -8,7 +10,7 @@ body{
     display: block;
 }
 #con{
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 6.5%;
     width: 25%;
 }
