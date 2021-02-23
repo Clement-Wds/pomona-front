@@ -1,0 +1,24 @@
+li{
+    list-style: none;
+    position: relative;
+    margin: 20px 30px;
+}
+
+li p {
+    text-align: center;
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images button{
+    position: absolute;
+    left: 37%;
+    top: 100%;
+}
+
+
