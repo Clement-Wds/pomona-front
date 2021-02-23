@@ -18,7 +18,7 @@ export default function Home() {
                 <button type="button" class="btn btn-outline-primary">search</button>
             </div>
             <div class="logo">
-                <a href="./index.html">
+                <a href="./home.js">
                     <img class="logo" src="css/PassionFroid.png"/>
                 </a>
             </div>
