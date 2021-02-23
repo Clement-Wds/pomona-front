@@ -11,23 +11,27 @@
     </head>
     <body>
         <div class="logo">
-            <a href="file:///C:/Users/antho/Documents/Ynov/B1info/Ytrack/Challenge48h/front/index.html">
+            <a href="./index.html">
                 <img class="logo" src="css/PassionFroid.png">
             </a>
         </div>
         <!--Connection-->
         <form method="POST">
             <div class = "container-fluid white" id="connect">
-                    <div class="mb-3">  
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" name= id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                        <div class="mb-3">  
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" name= id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" name="identifiant" class="btn btn-primary">Submit</button>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" name="password" id="exampleInputPassword1">
-                    </div>
-                    <button type="submit" name="identifiant" class="btn btn-primary">Submit</button>
+                    <div class="col-md-1"></div>
             </div>
             <!--connection finit-->
             <div class = "container-fluid">
@@ -35,21 +39,33 @@
                     <div class="col-md-1"></div>
                     <!--Button ambiance-->
                     <div class="col-md-5">
-                        <a href="file:///C:/Users/antho/Documents/Ynov/B1info/Ytrack/Challenge48h/front/index2.html">
+                        <p class ="text">Image d'ambiance</p>
+                        <a href="./index2.html">
                             <img class="ambianceimage" src="css/photosambiance/AdobeStock_30838671.jpeg" id="imagebutton">
                         </a>
-                        <p class ="text">Image d'ambiance</p>
                     </div>
                     <!--Button produit-->
                     <div class="col-md-5">
-                        <a href="file:///C:/Users/antho/Documents/Ynov/B1info/Ytrack/Challenge48h/front/index2.html">
+                        <p class ="text">Image de produit</p>
+                        <a href="./index2.html">
                             <img class="produitimage" src="css/photosproduits/39847-RC.jpg" id="imagebutton">
                         </a>
-                        <p class ="text">Image de produit</p>
                     </div>
                     <div class="col-md-1"></div>
+                    <div class="col-md-6 btn-block" id="butto2">
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Upload files</label>
+                            <input class="form-control" type="file" id="formFileMultiple" multiple>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!--navbar-->
+            <div class="input-group" id="nav">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                  aria-describedby="search-addon" />
+                <button type="button" class="btn btn-outline-primary">search</button>
+              </div>
         </form>
     </body>
 </html>
