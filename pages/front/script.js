@@ -1,5 +1,5 @@
 const imagesDiv = document.querySelector(".images");
-const url = "https://pomona-passion-froid.herokuapp.com";
+const url = "https://pomona-passion-froid.herokuapp.com/";
 let allImages = [];
 
 imagesDiv.addEventListener("click", deleteImage);
@@ -34,8 +34,8 @@ function renderImages(image){
     let list = [];
     image.forEach((i) => {
         const item = `<li id="${i.id}">
-            <p> ${i.Nom} </p>
-            <img src='${i.url_image}' width="300px" height="200px"> 
+            <p> ${i.nom} </p>
+            <img src='${i.url}' width="300px" height="200px"> 
             <button>Supprimer</button>
         </li>`;
         list = [...list, item];
@@ -62,8 +62,8 @@ function addImage(e){
     const nom = imageNom.value.trim();
     const urlImage = imageUrl.value;
     const payload = {
-        Nom: nom,
-        url_image: urlImage,
+        nom: nom,
+        url: urlImage,
     }
 
     fetch(`${url}/Images`, {
@@ -74,6 +74,5 @@ function addImage(e){
         body: JSON.stringify(payload),
     }).then(response => {
         console.log(response);
-
     })
 }
