@@ -8,7 +8,7 @@ const Home = ({images}) => {
 		<div className="container">
 			{images.map(image => (
 				<div>
-				{image.title}
+				{image.nom}
 				</div>
 			))}
 		</div>
