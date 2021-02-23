@@ -8,7 +8,7 @@ export default function Images() {
                 <meta name="viewport" content="width=device, initial-scale=1.0" />
                 <title>Images</title>
                 <link type="text/css" rel="stylesheet" href="css/style.css" />
-                <script src="../script.js" defer></script>
+                <script src="script.js" defer></script>
             </Head>
 
             <form class="search">
