@@ -1,0 +1,57 @@
+body{
+    background-image: url("photosambiance/Fotolia_59627880_Subscription_Monthly_MD.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 35%;
+    margin: auto;
+    display: block;
+}
+#grid{
+    margin:auto;
+}
+#imagebutton{
+    margin-top: 5%;
+    margin-left: -3%;
+    width: 104%;
+}
+.text{
+    margin-left: 37%;
+    margin-top: 3%;
+    font-family: "Times New Roman";
+    font-size: large;
+    position: relative;
+    color: black;
+}
+
+/*navbar*/
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+.active, .collapsible:hover {
+    background-color: #555;
+}
+  
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+#connect{
+    background-color: white;
+    margin-top: -1%;
+}
