@@ -69,5 +69,13 @@ body{
     background-color: rgb(74, 156, 161);
     border-bottom: 2px solid;
     border-color: black;
-    opacity: 70%;
+    opacity: 90%;
+}
+#uptext{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
