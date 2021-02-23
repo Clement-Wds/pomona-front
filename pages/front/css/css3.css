@@ -1,6 +1,7 @@
 body{
     background-image: url("photosambiance/Fotolia_59627880_Subscription_Monthly_MD.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 .logo{
     width: 35%;
